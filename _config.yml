@@ -35,8 +35,9 @@ minima:
   skin: auto
   social_links:
         - { platform: github,  user_url: "https://github.com/ahresse" }
-        - { platform: linkedin,  user_url: "https://linkedin.com/in/alexandreesse" }
+        - { platform: launchpad, user_url: "https://www.launchpad.net/~ahresse" }
         - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/4583444/ahresse" }
+        - { platform: linkedin,  user_url: "https://linkedin.com/in/alexandreesse" }
 
 plugins:
   - jekyll-feed
