@@ -30,6 +30,9 @@ github_username:  ahresse
 
 # Build settings
 remote_theme: jekyll/minima
+
+minima:
+  skin: auto
 plugins:
   - jekyll-feed
 
