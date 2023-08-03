@@ -43,7 +43,7 @@ mkdir -p ~/Developments/canonical/scripts/
 cd ~/Developments/canonical/scripts/
 wget https://gist.githubusercontent.com/basak/72b87a5b619a100ace1476715bfc5b18/raw/d716f711a152a71d9a0eaae5fb932f83ff1c03d7/lxd-ssh.sh
 chmod +x lxd-ssh.sh
-ln -s lxd-ssh.sh /usr/local/bin/lxd-ssh
+sudo ln -s ~/Developments/canonical/scripts/lxd-ssh.sh /usr/local/bin/lxd-ssh
 ```
 
 Update your `~/.ssh/config` :
