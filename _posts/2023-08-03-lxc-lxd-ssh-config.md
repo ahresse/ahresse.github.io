@@ -63,4 +63,4 @@ ssh u1.lxd
 
 ## Going further
 
-It might be interesting to integrate https://github.com/dustinkirkland/ssh-import-id for the public key importation.
+It might be interesting to integrate [ssh-import-id](https://github.com/dustinkirkland/ssh-import-id) for the public key importation.
