@@ -14,7 +14,7 @@ categories: container lxc lxd
 Add your ssh public key to the running container you want to connect to:
 
 ```bash
-lxc file push ~/.ssh/id_<xxx>.pub /home/ubuntu/.ssh/authorized_keys
+lxc file push ~/.ssh/id_<xxx>.pub u1/home/ubuntu/.ssh/authorized_keys
 ```
 
 ### On a dedicated profile
