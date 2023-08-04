@@ -53,7 +53,11 @@ Host *.lxd
   User ubuntu
   ProxyCommand lxd-ssh %h
   StrictHostKeyChecking no
+  IdentityFile /home/<user>/.ssh/id_rsa-lxd
+  ForwardAgent yes
 ``````
+
+_`ForwardAgent` entry will allow you to get the host ssh key available inside the VM and containers you connect to. (for example allowing you to clone GitHub repositories through ssh)._
 
 Then you can connect on running container u1 with:
 
