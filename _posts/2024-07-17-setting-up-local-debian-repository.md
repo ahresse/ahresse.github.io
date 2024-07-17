@@ -65,7 +65,7 @@ Replacing:
  
 ## 4 - Launch an HTTP server acting for your APT server
 
-Still with the `build-are` directory of your development system, launch and HTTP server:
+Still within the `build-area` directory of your development system, launch and HTTP server:
 
 ```
 python3 -m http.server
