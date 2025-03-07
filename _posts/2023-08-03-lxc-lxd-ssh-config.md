@@ -25,13 +25,16 @@ You can add your SSH public key into an LXD profile. To do so on the `default` p
 lxc profile edit default
 ```
 
-And add your public SSH key (found in `~/.ssh/id_<xxx>.pub`):
+Configure cloud-init to install `openssh-server` and add your public SSH key (found in `~/.ssh/id_<xxx>.pub`):
 
 ```conf
 config:
   user.user-data: |
     #cloud-config
-    ssh_authorized_keys: <place your ssh public key here>
+    packages:
+      - openssh-server
+    ssh_authorized_keys:
+      - <place your ssh public key here>
 ```
 
 ## Make SSH connection even smoother
