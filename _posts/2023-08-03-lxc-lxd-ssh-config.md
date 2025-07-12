@@ -33,6 +33,8 @@ config:
     #cloud-config
     packages:
       - openssh-server
+    runcmd:
+      - systemctl enable --now ssh
     ssh_authorized_keys:
       - <place your ssh public key here>
 ```
